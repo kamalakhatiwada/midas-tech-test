@@ -1,0 +1,85 @@
+/*general settings*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+/*firtdiv*/
+
+#search{
+	background: green;
+	color: #fff;
+	font-size: 12px;
+	padding: 2px 2px;
+	margin-left: 12px;
+}
+
+#refresh{
+	background: #eaeae1;
+	color: #333;
+	font-size: 12px;
+	padding: 2px 2px;
+	border-color:#eaeae1;
+	border-width: 2px;
+	border-style: solid;
+	
+}
+
+.text{
+	border-style: ridge;
+	padding: 4px 0;
+}
+
+/*second div*/
+.para{
+	color: #000;
+	font-size: 12px;
+}
+.title{
+	color: red;
+	font-size: 13px;
+}
+.title-zero{
+	background: blue;
+	color: #fff;
+	font-size: 14px;
+	padding: 2px 25px;
+}
+
+.title-one{
+	background: blue;
+	color: #fff;
+	font-size: 14px;
+	padding: 2px 25px;
+	margin-left: 12px;
+
+}
+
+.box{
+	font-size: 12px;
+}
+.title-two{
+	font-size: 12px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+/*section four*/
+#all{
+	font-size: 12px;
+	padding-right: 10px;
+}
+.space{
+	margin-left: 12px;
+}
+
+#collect{
+	border-color:#000;
+	border-width: 1px;
+	border-style: dotted;
+	padding: 3px 4px;
+}
