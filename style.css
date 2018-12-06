@@ -103,7 +103,17 @@ html,body{
 	margin-top: 200px;
 }
 
-
+/*#gap::after{
+  width: 2px;
+  height: 2px;
+  background:#bfbfbf;
+  display: block;
+  content: "";
+  left:0;
+  margin-top: 2px;
+  
+}
+*/
 /*fifth div*/
 
 .header{
