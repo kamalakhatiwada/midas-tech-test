@@ -8,7 +8,19 @@ html,body{
 	margin: 0;
 	padding: 0;
 }
-/*firtdiv*/
+
+/*first div*/
+
+.header-title{
+	text-align: center;
+	background: #79a4d2;
+	color: #fff;
+	font-size: 14px;
+	padding: 4px 0;
+}
+
+
+/*second div*/
 
 #search{
 	background: green;
@@ -23,18 +35,22 @@ html,body{
 	color: #333;
 	font-size: 12px;
 	padding: 2px 2px;
-	border-color:#eaeae1;
-	border-width: 2px;
+	border-color:#bfbfbf;
+	border-width: 1px;
 	border-style: solid;
 	
 }
 
 .text{
-	border-style: ridge;
+	
+	border-color:#bfbfbf;
+	border-width: 1px;
+	border-style: solid;
 	padding: 4px 0;
 }
 
-/*second div*/
+/*third div*/
+
 .para{
 	color: #000;
 	font-size: 12px;
@@ -44,35 +60,65 @@ html,body{
 	font-size: 13px;
 }
 .title-zero{
-	background: blue;
+	background: #79a4d2;
 	color: #fff;
 	font-size: 14px;
 	padding: 2px 25px;
 }
 
 .title-one{
-	background: blue;
+	background:  #79a4d2;
 	color: #fff;
 	font-size: 14px;
 	padding: 2px 25px;
 	margin-left: 12px;
-
 }
 
 .box{
 	font-size: 12px;
 }
+
 .title-two{
 	font-size: 12px;
 	padding-top: 20px;
 	padding-right: 10px;
+	
 }
 
-/*section four*/
+/*fourth div*/
+
+.title-three{
+	font-size: 12px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.title-five{
+	font-size: 12px;
+	border-color:#bfbfbf;
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px 2px;
+	margin-right: 2px;
+	margin-top: 200px;
+}
+
+
+/*fifth div*/
+
+.header{
+	background:  #79a4d2;
+	color: #fff;
+	font-size: 12px;
+	padding: 2px 4px;
+	margin-left: 4px;
+}
+
 #all{
 	font-size: 12px;
 	padding-right: 10px;
 }
+
 .space{
 	margin-left: 12px;
 }
@@ -82,4 +128,16 @@ html,body{
 	border-width: 1px;
 	border-style: dotted;
 	padding: 3px 4px;
+	
+}
+
+.sample{
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+#dash{
+	border-color:#bfbfbf;
+	border-width: 1px;
+	border-style: solid;
 }

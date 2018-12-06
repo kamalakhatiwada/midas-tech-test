@@ -16,25 +16,32 @@
     <link rel="stylesheet" href="style.css">  
 </head>
 <body>
-<!--first div-->
-
+ <!-- scetion first -->
 <section class="firstdiv">
-    <div class="container text">
+    <div class="container">
+      <h1 class="header-title">Pathology User:MIDAS</h1>
+    </div>
+</section>
+
+<!-- section second -->
+
+<section class="seconddiv">
+    <div class="container">
         <div class="row no-gutters">
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <h2><span id="search"> Patient Search</span></h2>
             </div>
-            <div class="col-md-2"><h2 class="title-two"><input type="number" name="all" value="all">&nbspDays</h2></div>
+            <div class="col-md-3"><h2 class="title-two"><input type="number" name="all" value="all">&nbspDays</h2></div>
             <div class="col-md-1"><h2><span id="refresh">Refresh</h2></span></div>
             <div class="col-md-2"><h2><span id="refresh">Undo sample Collection</h2></span></div>
-            <div class="col-md-5"></div>
+            <div class="col-md-4"></div>
         </div>
     </div>
 </section>
 
-<!--second div-->
+<!-- section  third -->
 
-<section class="seconddiv">
+<section class="thirddiv">
     <div class="container">
         <div class="row text">
             <div class="col-md-3">
@@ -56,11 +63,12 @@
     </div>
 </section>
 
-<!--section third-->
-<section class="thirddiv">
+<!--section four-->
+
+<section class="fourdiv">
     <div class="container">
-        <div class="row text">
-            <div class="col-md-6">
+        <div class="row ">
+            <div class="col-md-5">
                 <h2><span  class="title-zero"> Bill List</span></h2>
                 <table class="table table-bordered">
                     <thead>
@@ -87,7 +95,7 @@
                 </table>
             </div>
             
-            <div class="col-md-6"><h2><span  class="title">Sample No List</span></h2>
+            <div class="col-md-4"><h2><span  class="title">Sample No List</span></h2>
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -112,18 +120,23 @@
                      </tr>
                     </tbody>
                 </table>
-                <h4 class="title-two">Lab No.: 73036925</h4>
-                <h4 class="title-two"><input type="checkbox" name="all" value="all">Include previous colln No.: 73036925</h4>
+                <h4 class="title-three">Lab No.:<span id="dash"> 73036925</span></h4>
+                <h4 class="title-three"><input type="checkbox" name="all" value="all">Include previous colln No.:<span id="dash"> 73036925</span></h4>
             </div>
-            
+            <div class="col-md-3">
+                <div class="row">
+                <h4 class="title-five"><span id="gap"> P</span>rint sticker</span></h4>
+                <h4 class="title-five"><span id="gap"> R</span>e-print</h4>
+            </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!--section four-->
-<section class="fourdiv">
+<!--section five-->
+<section class="fivediv">
     <div class="container">
-        <div class="row text">
+        <div class="row">
             <div class="col-md-6">
                 <div class="row">
                     <h2><span  class="title-one"> Text Name</span>
@@ -136,12 +149,12 @@
                         <textarea class="form-control" rows="3" id="comment" name="text"></textarea>
                     </div>
                     </form>
-                    <h4 class="title-two">Sample Remarks:........................</h4>
+                    <h4 class="sample">Sample Remarks:<span id="dash">-------------------</span></h4>
             </div>
             
             <div class="col-md-6">
-                <div class="row no-gutters text">
-                <h2 class="header"><span  class="title-one">Collected sample</span></h2>
+                <div class="row no-gutters">
+                <h2><span class="header">Collected sample</span></h2>
                 <h2 class="title-two"><input type="checkbox" name="all" value="all"><span id="all">All</span>
                 </h2>
                 <h2 class="title-two"><input type="checkbox" name="all" value="all">Preview</h2>
